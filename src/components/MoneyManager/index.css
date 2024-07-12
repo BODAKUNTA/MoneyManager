@@ -1,0 +1,159 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.bg-container {
+  height: 100vh;
+  padding: 8vmax;
+}
+
+.title-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 15vh;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+.para {
+  color: #7e858e;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.span {
+  color: #0b69ff;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.transaction-container {
+  width: 32vw;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 40px;
+  padding-top: 40px;
+}
+
+.add-transaction-heading {
+  color: #1e293b;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.label-title {
+  color: #7e858e;
+  font-size: 15px;
+  font-family: Roboto;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.title-input {
+  height: 35px;
+  border: 1px solid #cbd5e1;
+  color: #7e858e;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.add-button {
+  height: 35px;
+  width: 65px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Roboto;
+  background-color: #0b69ff;
+  border: 0px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.transaction-history-container {
+  width: 48vw;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 40px;
+  padding-top: 40px;
+}
+
+.history-heading {
+  color: #1e293b;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.ul-con {
+  padding-left: 0px;
+}
+
+.t-a-t-container {
+  height: 45px;
+  border: 1px solid #cbd5e1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sample-con {
+  height: 45px;
+  width: 340px;
+  border: 0px solid #cbd5e1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.history-para {
+  color: #334155;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Roboto;
+  padding-left: 40px;
+}
+
+.history-para1 {
+  color: #334155;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+.history-para2 {
+  color: #334155;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Roboto;
+}

@@ -1,0 +1,70 @@
+/* Write your CSS here */
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.total-balance-container {
+  height: 130px;
+  width: 300px;
+  border: 1px solid #84cc16;
+  background-color: #ecfccb;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.total-balance-container1 {
+  height: 130px;
+  width: 300px;
+  border: 1px solid #06b6d4;
+  background-color: #cffafe;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.total-balance-container2 {
+  height: 130px;
+  width: 300px;
+  border: 1px solid #7c3aed;
+  background-color: #ede9fe;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.balance-img {
+  width: 70px;
+}
+
+.inside-balance-container {
+  margin-left: 30px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.balance-para {
+  color: #7e858e;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.rupees-para {
+  color: #475569;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 20px;
+}
